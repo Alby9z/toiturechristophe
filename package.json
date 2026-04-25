@@ -1,0 +1,30 @@
+{
+  "name": "toitures-martin",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Site vitrine — Toitures Martin, artisan couvreur zingueur",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "lucide-react": "^0.438.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.53.0",
+    "react-intersection-observer": "^9.13.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "vite": "^7.0.0"  }
+}

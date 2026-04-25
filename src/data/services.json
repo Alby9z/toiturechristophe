@@ -1,0 +1,125 @@
+[
+  {
+    "id": "couverture",
+    "slug": "/couverture",
+    "icon": "🏠",
+    "label": "Couverture",
+    "shortDesc": "Pose, rénovation et entretien de toitures en tuiles, ardoises et bacs acier.",
+    "heroTitle": "Couverture",
+    "heroSubtitle": "Pose & rénovation de toitures",
+    "description": "Notre savoir-faire en couverture couvre l'ensemble des techniques traditionnelles et modernes. De la pose neuve à la réfection complète, nous intervenons sur tous types de toitures.",
+    "prestations": [
+      {
+        "title": "Pose neuve",
+        "desc": "Charpente, litelage, contre-litelage, pose de tuiles, ardoises ou bacs acier sur constructions neuves.",
+        "icon": "🔨"
+      },
+      {
+        "title": "Rénovation complète",
+        "desc": "Dépose de l'ancienne couverture, traitement de la charpente, isolation et repose d'une nouvelle couverture.",
+        "icon": "🔄"
+      },
+      {
+        "title": "Réparation & entretien",
+        "desc": "Remplacement de tuiles cassées, nettoyage, hydrofugation, traitement anti-mousse.",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Isolation des combles",
+        "desc": "Isolation thermique par soufflage ou rouleaux. Travaux éligibles aux aides CEE.",
+        "icon": "🌡️"
+      }
+    ],
+    "materiaux": ["Tuiles canal", "Tuiles plates", "Ardoise naturelle", "Ardoise fibrociment", "Bac acier", "Shingle"],
+    "avantages": [
+      "Devis gratuit sous 48h",
+      "Garantie décennale incluse",
+      "Artisan RGE certifié",
+      "Respect des délais"
+    ],
+    "metaTitle": "Couverture — Toitures Martin | Couvreur Vesoul Haute-Saône",
+    "metaDesc": "Pose et rénovation de toitures à Vesoul et en Haute-Saône. Artisan couvreur certifié RGE. Devis gratuit."
+  },
+  {
+    "id": "zinguerie",
+    "slug": "/zinguerie",
+    "icon": "⚙️",
+    "label": "Zinguerie",
+    "shortDesc": "Gouttières, chéneaux, faîtages, descentes d'eaux pluviales en zinc ou aluminium.",
+    "heroTitle": "Zinguerie",
+    "heroSubtitle": "Zinc, aluminium & évacuation des eaux",
+    "description": "La zinguerie assure l'évacuation des eaux pluviales et protège votre bâtiment de l'humidité. Nous travaillons le zinc, l'aluminium et le cuivre avec un soin minutieux.",
+    "prestations": [
+      {
+        "title": "Gouttières & chéneaux",
+        "desc": "Pose et remplacement de gouttières pendantes ou encaissées, chéneaux de toiture.",
+        "icon": "💧"
+      },
+      {
+        "title": "Descentes d'eaux pluviales",
+        "desc": "Installation de tuyaux de descente, raccordement au réseau ou récupération d'eau.",
+        "icon": "⬇️"
+      },
+      {
+        "title": "Faîtages & rives",
+        "desc": "Pose de faîtages filants, noques, solins et bavettes en zinc ou aluminium.",
+        "icon": "📐"
+      },
+      {
+        "title": "Fenêtres de toit",
+        "desc": "Pose et remplacement de fenêtres de toit Velux ou équivalent avec raccords étanches.",
+        "icon": "🪟"
+      }
+    ],
+    "materiaux": ["Zinc naturel", "Zinc prépatiné", "Aluminium laqué", "Cuivre", "PVC renforcé", "Acier galvanisé"],
+    "avantages": [
+      "Travail soigné et durable",
+      "Matériaux premium",
+      "Intervention rapide",
+      "Garantie étanchéité"
+    ],
+    "metaTitle": "Zinguerie — Toitures Martin | Gouttières & Chéneaux Vesoul",
+    "metaDesc": "Pose de gouttières, chéneaux et zinguerie à Vesoul et Haute-Saône. Artisan zingueur. Devis gratuit."
+  },
+  {
+    "id": "etancheite",
+    "slug": "/etancheite",
+    "icon": "🔵",
+    "label": "Étanchéité",
+    "shortDesc": "Toitures-terrasses, toits plats, étanchéité à l'eau par membrane ou bitume.",
+    "heroTitle": "Étanchéité",
+    "heroSubtitle": "Toitures-terrasses & toits plats",
+    "description": "L'étanchéité des toits plats et toitures-terrasses nécessite une expertise technique pointue. Nous réalisons des travaux d'étanchéité durables avec les meilleures membranes du marché.",
+    "prestations": [
+      {
+        "title": "Étanchéité bitumineuse",
+        "desc": "Pose de membranes bitumineuses (SBS/APP) multicouches, application à la flamme ou à froid.",
+        "icon": "🔥"
+      },
+      {
+        "title": "Membrane EPDM",
+        "desc": "Étanchéité liquide ou en membrane EPDM pour terrasses inaccessibles ou jardins.",
+        "icon": "🧩"
+      },
+      {
+        "title": "Toiture-terrasse",
+        "desc": "Conception et réalisation complète : isolation, pare-vapeur, étanchéité, protection.",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Diagnostic & réparation",
+        "desc": "Détection de fuite, réparation ponctuelle, reprise d'étanchéité sur zones dégradées.",
+        "icon": "🔍"
+      }
+    ],
+    "materiaux": ["Bitume SBS", "Bitume APP", "EPDM", "PVC armé", "TPO", "Résine polyuréthane"],
+    "avantages": [
+      "Diagnostic offert",
+      "Techniques certifiées",
+      "Étanchéité garantie 10 ans",
+      "Intervention d'urgence possible"
+    ],
+    "metaTitle": "Étanchéité — Toitures Martin | Toiture-terrasse Vesoul",
+    "metaDesc": "Étanchéité toiture-terrasse à Vesoul et Haute-Saône. Membrane bitume, EPDM. Garantie décennale."
+  }
+]

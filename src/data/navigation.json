@@ -1,0 +1,8 @@
+[
+  { "label": "Accueil",           "path": "/",             "id": "accueil" },
+  { "label": "Qui sommes-nous",   "path": "/a-propos",     "id": "about" },
+  { "label": "Couverture",        "path": "/couverture",   "id": "couverture" },
+  { "label": "Zinguerie",         "path": "/zinguerie",    "id": "zinguerie" },
+  { "label": "Étanchéité",        "path": "/etancheite",   "id": "etancheite" },
+  { "label": "Secteur",           "path": "/secteur",      "id": "secteur" }
+]

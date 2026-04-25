@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== BASE ===== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body text-stone-800 bg-stone-50 antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ardoise-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cuivre-500 rounded-full;
+  }
+}
+
+/* ===== COMPONENTS ===== */
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-cuivre-500 hover:bg-cuivre-400
+           text-white font-body font-bold text-xs tracking-widest uppercase
+           px-7 py-3.5 rounded-sm transition-all duration-200
+           hover:-translate-y-0.5 hover:shadow-lg focus:outline-none
+           focus:ring-2 focus:ring-cuivre-400 focus:ring-offset-2;
+  }
+  .btn-outline-white {
+    @apply inline-flex items-center gap-2 border border-white/30
+           hover:border-cuivre-400 text-stone-300 hover:text-cuivre-300
+           font-body font-normal text-sm px-7 py-3.5 rounded-sm
+           transition-all duration-200 focus:outline-none
+           focus:ring-2 focus:ring-cuivre-400;
+  }
+  .btn-outline-dark {
+    @apply inline-flex items-center gap-2 border border-ardoise-600
+           hover:border-cuivre-500 text-ardoise-600 hover:text-cuivre-600
+           font-body font-bold text-xs tracking-widest uppercase
+           px-7 py-3.5 rounded-sm transition-all duration-200;
+  }
+  .btn-white {
+    @apply inline-flex items-center gap-2 bg-white hover:bg-stone-100
+           text-cuivre-600 font-body font-bold text-xs tracking-widest uppercase
+           px-7 py-3.5 rounded-sm transition-all duration-200
+           hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  /* Section labels */
+  .section-tag {
+    @apply inline-block text-2xs tracking-[0.22em] uppercase text-cuivre-500
+           border border-cuivre-500/40 px-3 py-1 rounded-sm mb-4;
+  }
+  .section-title {
+    @apply font-display text-3xl md:text-4xl text-ardoise-600 leading-tight mb-4;
+  }
+  .section-desc {
+    @apply text-stone-500 font-light leading-relaxed;
+  }
+
+  /* Cards */
+  .service-card {
+    @apply bg-white border border-stone-200 rounded-lg overflow-hidden
+           transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover
+           cursor-pointer;
+  }
+
+  /* Form inputs */
+  .form-input {
+    @apply w-full bg-stone-50 border border-stone-200 rounded text-sm
+           text-stone-800 px-4 py-3 font-body
+           transition-all duration-200
+           focus:outline-none focus:border-cuivre-500
+           focus:ring-2 focus:ring-cuivre-500/10
+           placeholder:text-stone-400;
+  }
+  .form-label {
+    @apply block text-2xs font-bold tracking-widest uppercase text-stone-500 mb-1.5;
+  }
+
+  /* Page header */
+  .page-header {
+    @apply bg-gradient-ardoise pt-24 pb-16 text-center;
+  }
+  .breadcrumb {
+    @apply text-xs text-ardoise-300 tracking-wider mb-3;
+  }
+
+  /* Check list */
+  .check-list {
+    @apply space-y-2.5;
+  }
+  .check-list li {
+    @apply flex items-start gap-3 text-sm text-stone-600;
+  }
+  .check-list li::before {
+    content: "✓";
+    @apply text-cuivre-500 font-bold flex-shrink-0 mt-0.5;
+  }
+
+  /* Animate on scroll helper */
+  .reveal {
+    @apply opacity-0 translate-y-6 transition-all duration-700 ease-out;
+  }
+  .reveal.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* ===== UTILITIES ===== */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+}

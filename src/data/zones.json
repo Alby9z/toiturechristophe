@@ -1,0 +1,23 @@
+{
+  "department": "Haute-Saône (70)",
+  "radius": "50 km autour de Vesoul",
+  "mainCity": "Vesoul",
+  "zones": [
+    { "name": "Vesoul", "distance": "0 km", "principal": true },
+    { "name": "Gray", "distance": "35 km", "principal": true },
+    { "name": "Luxeuil-les-Bains", "distance": "30 km", "principal": true },
+    { "name": "Lure", "distance": "28 km", "principal": true },
+    { "name": "Héricourt", "distance": "42 km", "principal": false },
+    { "name": "Montbozon", "distance": "18 km", "principal": false },
+    { "name": "Port-sur-Saône", "distance": "12 km", "principal": false },
+    { "name": "Rioz", "distance": "15 km", "principal": false },
+    { "name": "Jussey", "distance": "25 km", "principal": false },
+    { "name": "Champlitte", "distance": "38 km", "principal": false },
+    { "name": "Faverney", "distance": "20 km", "principal": false },
+    { "name": "Dampierre-sur-Salon", "distance": "22 km", "principal": false },
+    { "name": "Scey-sur-Saône", "distance": "17 km", "principal": false },
+    { "name": "Fougerolles", "distance": "32 km", "principal": false }
+  ],
+  "departements": ["Haute-Saône (70)", "Territoire de Belfort (90)", "Doubs (25)", "Vosges (88)"],
+  "note": "Déplacement possible hors secteur selon nature des travaux. Contactez-nous pour en discuter."
+}
