@@ -1,9 +1,9 @@
 {
-  "department": "Haute-Saône (70)",
-  "radius": "50 km autour de Vesoul",
-  "mainCity": "Vesoul",
+  "department": "Haut-Rhin (68)",
+  "radius": "70/90 km autour de Dannemarie",
+  "mainCity": "valdieu-lutran",
   "zones": [
-    { "name": "Vesoul", "distance": "0 km", "principal": true },
+    { "name": "valdieu-lutran", "distance": "0 km", "principal": true },
     { "name": "Gray", "distance": "35 km", "principal": true },
     { "name": "Luxeuil-les-Bains", "distance": "30 km", "principal": true },
     { "name": "Lure", "distance": "28 km", "principal": true },
@@ -18,6 +18,6 @@
     { "name": "Scey-sur-Saône", "distance": "17 km", "principal": false },
     { "name": "Fougerolles", "distance": "32 km", "principal": false }
   ],
-  "departements": ["Haute-Saône (70)", "Territoire de Belfort (90)", "Doubs (25)", "Vosges (88)"],
+  "departements": ["Haute-Saône (70)", "Territoire de Belfort (90)", "Doubs (25)", "Haut-Rhin (68)"],
   "note": "Déplacement possible hors secteur selon nature des travaux. Contactez-nous pour en discuter."
 }

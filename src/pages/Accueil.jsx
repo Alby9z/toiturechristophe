@@ -33,7 +33,7 @@ export default function Accueil() {
     <>
       <SEOHead
         title={null}
-        description="Toitures Martin, artisan couvreur zingueur à Vesoul. Couverture, zinguerie, étanchéité en Haute-Saône. Devis gratuit."
+        description="Les Toitures de Christophe, artisan couvreur zingueur à Valdieu-Lutran. Couverture, zinguerie, étanchéité dans le Haut-Rhin. Devis gratuit."
         canonical="/"
       />
 
@@ -57,8 +57,8 @@ export default function Accueil() {
               couvrir <em className="text-cuivre-400 not-italic">juste</em>
             </h1>
             <p className="text-stone-400 font-light text-lg leading-relaxed mb-8 max-w-lg">
-              Depuis plus de 20 ans, Toitures Martin intervient sur tous vos projets
-              de couverture, zinguerie et étanchéité en Haute-Saône. Qualité artisanale,
+              Depuis plus de 20 ans, Les Toitures de Christophe intervient sur tous vos projets
+              de couverture, zinguerie et étanchéité dans le Haut-Rhin et département voisin. Qualité artisanale,
               délais respectés, devis gratuit.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -187,8 +187,8 @@ export default function Accueil() {
             <span className="section-tag">Zone d'intervention</span>
             <h2 className="section-title">Nous intervenons<br />près de chez vous</h2>
             <p className="section-desc mb-6">
-              Basés à Vesoul, nous intervenons dans un rayon de 50 km sur l'ensemble
-              de la Haute-Saône et départements limitrophes.
+              Basés à Vesoul, nous intervenons dans un rayon de 70/90 km sur l'ensemble
+              du Haut-Rhin et départements limitrophes.
             </p>
             <Link to="/secteur" className="btn-outline-dark">
               Voir notre secteur <ArrowRight size={15} />

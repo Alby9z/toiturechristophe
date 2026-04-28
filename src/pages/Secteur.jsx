@@ -12,14 +12,14 @@ export default function Secteur() {
     <>
       <SEOHead
         title="Secteur d'intervention"
-        description={`Toitures Martin intervient dans un rayon de 50 km autour de Vesoul : ${zonesData.zones.map(z => z.name).join(', ')}. Devis gratuit.`}
+        description={`Les Toitures de Christophe intervient dans un rayon de 70/90 km autour de Dannemarie : ${zonesData.zones.map(z => z.name).join(', ')}. Devis gratuit.`}
         canonical="/secteur"
       />
 
       <PageHeader
         tag="Zone géographique"
         title="Secteur d'intervention"
-        subtitle={`Nous intervenons dans un rayon de 50 km autour de Vesoul, en ${zonesData.department}.`}
+        subtitle={`Nous intervenons dans un rayon de 70/90 km autour de Dannemarie, en ${zonesData.department}.`}
         breadcrumb={[{ label: "Secteur d'intervention" }]}
       />
 
@@ -32,9 +32,9 @@ export default function Secteur() {
                style={{ height: '340px' }}>
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
               <MapPin size={48} className="text-cuivre-400" />
-              <p className="text-white font-display text-2xl">Vesoul — Haute-Saône</p>
+              <p className="text-white font-display text-2xl">Dannemarie — Haut-Rhin</p>
               <p className="text-stone-400 text-sm">
-                Rayon d'intervention : 50 km
+                Rayon d'intervention : 70/90 km
               </p>
               <a
                 href="https://www.google.com/maps/search/Vesoul+70000"

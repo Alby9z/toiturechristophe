@@ -8,7 +8,7 @@ const VALUES = [
   { icon: <Shield size={24} className="text-cuivre-400" />, title: 'Intégrité',   desc: 'Devis honnêtes, travaux sans mauvaises surprises.' },
   { icon: <Award  size={24} className="text-cuivre-400" />, title: 'Excellence',  desc: 'Matériaux premium, finitions soignées à chaque chantier.' },
   { icon: <Users  size={24} className="text-cuivre-400" />, title: 'Proximité',   desc: 'Un artisan local qui connaît votre région et ses contraintes.' },
-  { icon: <Wrench size={24} className="text-cuivre-400" />, title: 'Savoir-faire', desc: '20 ans de métier transmis avec passion et rigueur.' },
+  { icon: <Wrench size={24} className="text-cuivre-400" />, title: 'Savoir-faire', desc: '25 ans de métier transmis avec passion et rigueur.' },
 ]
 
 const TEAM = [
@@ -37,7 +37,7 @@ export default function APropos() {
     <>
       <SEOHead
         title="Qui sommes-nous"
-        description="Découvrez l'équipe Toitures Martin, artisan couvreur à Vesoul depuis 2005. 20 ans d'expérience, certifié RGE Qualibat, garantie décennale."
+        description="Découvrez l'équipe Les Toitures de Christophe, artisan couvreur à Valdieu-Lutran depuis 2025. 25 ans d'expérience, certifié RGE Qualibat, garantie décennale."
         canonical="/a-propos"
       />
 
@@ -52,17 +52,16 @@ export default function APropos() {
       <section className="py-24 px-4">
         <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="section-tag">Depuis 2005</span>
-            <h2 className="section-title">Une entreprise familiale<br />ancrée en Haute-Saône</h2>
+            <span className="section-tag">Depuis 2025</span>
+            <h2 className="section-title">Une entreprise familiale<br />ancrée dans le Haut-Rhin</h2>
             <p className="text-stone-500 font-light leading-relaxed mb-5">
-              Toitures Martin est née de la passion de Jean Martin pour le métier de couvreur.
+              Les Toitures de Christophe est née de la passion de Goeller Christophe pour le métier de couvreur.
               Après avoir appris son métier auprès des meilleurs artisans de la région,
-              il crée sa propre entreprise à Vesoul en 2005 avec une conviction simple :
+              il crée sa propre entreprise à Valdieux-Lutran en 2025 avec une conviction simple :
               offrir une qualité d'artisanat irréprochable au juste prix.
             </p>
             <p className="text-stone-500 font-light leading-relaxed mb-8">
-              Aujourd'hui, l'entreprise compte une équipe de 6 professionnels qualifiés
-              et a réalisé plus de 850 chantiers en Haute-Saône et dans les départements
+              Aujourd'hui, l'entreprise intervient dans le Haut-Rhin et dans les départements
               limitrophes. Notre réputation repose sur la rigueur, la transparence et
               le respect de nos engagements.
             </p>
@@ -90,7 +89,7 @@ export default function APropos() {
             ))}
             <div className="col-span-2 bg-cuivre-500 rounded-lg p-6 text-center">
               <span className="font-display text-2xl text-white">Intervenant local</span>
-              <p className="text-white/70 text-sm mt-1">Vesoul & Haute-Saône</p>
+              <p className="text-white/70 text-sm mt-1">Dannemarie & Département voisin</p>
             </div>
           </div>
         </div>

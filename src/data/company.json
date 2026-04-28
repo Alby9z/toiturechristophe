@@ -1,28 +1,28 @@
 {
-  "name": "Toitures Martin",
+  "name": "LES TOITURES DE CHRISTOPHE",
   "tagline": "Couverture, Zinguerie & Étanchéité",
   "slogan": "L'art de couvrir juste",
-  "description": "Artisan couvreur zingueur depuis plus de 20 ans. Qualité artisanale, délais respectés, devis gratuit.",
-  "phone": "03 84 XX XX XX",
+  "description": "Artisan couvreur zingueur depuis plus de 25 ans. Qualité artisanale, délais respectés, devis gratuit.",
+  "phone": "06 06 95 53 75",
   "email": "contact@toitures-martin.fr",
   "address": {
-    "street": "12 rue des Artisans",
-    "city": "Vesoul",
-    "zip": "70000",
-    "department": "Haute-Saône (70)"
+    "street": "150 RUE DU BALLON,",
+    "city": "VALDIEU-LUTRAN",
+    "zip": "68210",
+    "department": "Haut-Rhin (68)"
   },
-  "siret": "XXX XXX XXX 00000",
-  "rcs": "RCS Vesoul B XXX XXX XXX",
-  "legalForm": "SARL",
-  "capital": "10 000 €",
-  "director": "Jean Martin",
+  "siret": "10120341200016",
+  "rcs": "101 203 412 R.C.S. Mulhouse",
+  "legalForm": "SAFU",
+  "capital": "1 000,00 €",
+  "director": "Goeller Christophe",
   "host": {
     "name": "OVH SAS",
     "address": "2 rue Kellermann, 59100 Roubaix",
     "website": "https://www.ovh.com"
   },
   "hours": {
-    "weekdays": "Lun–Ven : 7h30 – 18h00",
+    "weekdays": "Lun–Ven : 7h15-12h – 13h-17h00",
     "saturday": "Sam : 8h00 – 12h00",
     "sunday": "Dim : Fermé"
   },
@@ -31,8 +31,8 @@
     "instagram": "https://instagram.com/toitures_martin"
   },
   "stats": [
-    { "value": "20+", "label": "Années d'expérience" },
-    { "value": "850", "label": "Chantiers réalisés" },
+    { "value": "25+", "label": "Années d'expérience" },
+    { "value": "4", "label": "Chantiers réalisés" },
     { "value": "100%", "label": "Satisfaction client" }
   ],
   "certifications": [
