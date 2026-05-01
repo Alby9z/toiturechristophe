@@ -59,7 +59,7 @@ export default function Navbar() {
                 href={`tel:${company.phone.replace(/\s/g, '')}`}
                 className="hidden md:flex items-center gap-2 text-cuivre-400 text-sm font-bold
                            hover:text-cuivre-300 transition-colors"
-                aria-label="Appeler Toitures Martin"
+                aria-label="Appeler Les Toitures de christophe"
               >
                 <Phone size={15} strokeWidth={2.5} />
                 <span className="hidden xl:inline">{company.phone}</span>

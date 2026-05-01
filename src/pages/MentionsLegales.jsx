@@ -19,7 +19,7 @@ export default function MentionsLegales() {
     <>
       <SEOHead
         title="Mentions légales"
-        description="Mentions légales, politique de confidentialité et gestion des cookies de Toitures Martin."
+        description="Mentions légales, politique de confidentialité et gestion des cookies Les Toitures de Christophe."
         canonical="/mentions-legales"
       />
 
@@ -192,7 +192,7 @@ export default function MentionsLegales() {
           </Section>
 
           <p className="text-xs text-stone-400 border-t border-stone-200 pt-6 mt-6">
-            Dernière mise à jour : janvier 2025
+            Dernière mise à jour : janvier 2026
           </p>
         </div>
       </article>

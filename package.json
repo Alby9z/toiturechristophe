@@ -1,9 +1,9 @@
 {
-  "name": "toitures-martin",
+  "name": "Les-toitures-de-christophe",
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "description": "Site vitrine — Toitures Martin, artisan couvreur zingueur",
+  "description": "Les toitures de christophe, artisan couvreur zingueur",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

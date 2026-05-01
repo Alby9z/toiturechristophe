@@ -7,8 +7,8 @@ import { Helmet } from 'react-helmet-async'
 export default function SEOHead({ title, description, canonical, ogImage }) {
   const base = 'https://www.toitures-martin.fr'
   const fullTitle = title
-    ? `${title} — Toitures Martin`
-    : 'Toitures Martin — Couverture, Zinguerie & Étanchéité à Vesoul'
+    ? `${title} — Les Toitures de Christophe`
+    : 'Les Toitures de Christophe — Couverture, Zinguerie & Étanchéité à Vesoul'
   const fullCanonical = canonical ? `${base}${canonical}` : base
 
   return (

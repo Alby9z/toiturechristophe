@@ -13,9 +13,9 @@ import emailjs from '@emailjs/browser'
  * @returns {Promise}
  */
 export async function sendContactEmail(formData) {
-  const serviceId  = import.meta.env.VITE_EMAILJS_SERVICE_ID
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
-  const publicKey  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
   if (!serviceId || !templateId || !publicKey) {
     // Dev mode: simulate success
@@ -25,13 +25,13 @@ export async function sendContactEmail(formData) {
   }
 
   const templateParams = {
-    from_prenom:  formData.prenom,
-    from_nom:     formData.nom,
-    from_email:   formData.email,
-    from_phone:   formData.phone,
+    from_prenom: formData.prenom,
+    from_nom: formData.nom,
+    from_email: formData.email,
+    from_phone: formData.phone,
     service_type: formData.service,
-    message:      formData.message,
-    to_email:     'contact@toitures-martin.fr',
+    message: formData.message,
+    to_email: 'chris-services@outlook.fr',
   }
 
   return emailjs.send(serviceId, templateId, templateParams, publicKey)

@@ -59,7 +59,7 @@ export default function Contact() {
     <>
       <SEOHead
         title="Contact & Devis"
-        description={`Contactez Toitures Martin pour un devis gratuit. ${company.phone} — ${company.email}. Réponse sous 48h.`}
+        description={`Contactez Les Toitures de Christophe pour un devis gratuit. ${company.phone} — ${company.email}. Réponse sous 48h.`}
         canonical="/contact"
       />
 

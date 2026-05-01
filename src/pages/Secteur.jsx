@@ -37,7 +37,7 @@ export default function Secteur() {
                 Rayon d'intervention : 70/90 km
               </p>
               <a
-                href="https://www.google.com/maps/search/Vesoul+70000"
+                href="https://www.google.com/maps/search/Dannemarie+Haut-Rhin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 btn-outline-white text-xs py-2 px-5"
