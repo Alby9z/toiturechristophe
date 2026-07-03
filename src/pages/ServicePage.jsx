@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import {
+  ArrowRight,
+  House,
+  CloudRain,
+  ShieldCheck,
+} from 'lucide-react'
 import SEOHead from '@/components/SEOHead'
 import PageHeader from '@/components/PageHeader'
 import CTABand from '@/components/CTABand'
@@ -8,6 +13,13 @@ import CTABand from '@/components/CTABand'
  * ServicePage — page générique réutilisée pour Couverture, Zinguerie, Étanchéité.
  * Données injectées depuis services.json via les pages parentes.
  */
+
+const SERVICE_ICONS = {
+  couverture: <House size={86} strokeWidth={1.3} className="text-cuivre-400" />,
+  zinguerie: <CloudRain size={86} strokeWidth={1.3} className="text-cuivre-400" />,
+  etancheite: <ShieldCheck size={86} strokeWidth={1.3} className="text-cuivre-400" />,
+}
+
 export default function ServicePage({ service }) {
   if (!service) return null
 
@@ -31,9 +43,9 @@ export default function ServicePage({ service }) {
         <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
           {/* Visual */}
           <div className="bg-gradient-to-br from-ardoise-700 to-ardoise-600 rounded-xl
-                          h-72 flex items-center justify-center text-8xl order-2 lg:order-1">
-            {service.icon}
-          </div>
+                h-72 flex items-center justify-center order-2 lg:order-1">
+  {SERVICE_ICONS[service.id] || service.icon}
+</div>
           {/* Text */}
           <div className="order-1 lg:order-2">
             <span className="section-tag">{service.label}</span>
