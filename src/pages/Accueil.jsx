@@ -1,5 +1,14 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Phone, Shield, Clock, Star, Award } from 'lucide-react'
+import {
+  ArrowRight,
+  Shield,
+  Clock,
+  Star,
+  Award,
+  House,
+  CloudRain,
+  ShieldCheck,
+} from 'lucide-react'
 import SEOHead from '@/components/SEOHead'
 import CTABand from '@/components/CTABand'
 import company from '@/data/company.json'
@@ -27,7 +36,11 @@ const WHY_US = [
     desc: 'Déplacement et établissement du devis offerts, sans engagement de votre part.',
   },
 ]
-
+const SERVICE_ICONS = {
+  couverture: <House size={58} strokeWidth={1.4} className="text-cuivre-400" />,
+  zinguerie: <CloudRain size={58} strokeWidth={1.4} className="text-cuivre-400" />,
+  etancheite: <ShieldCheck size={58} strokeWidth={1.4} className="text-cuivre-400" />,
+}
 export default function Accueil() {
   return (
     <>
@@ -130,12 +143,12 @@ export default function Accueil() {
                 className="service-card group"
               >
                 {/* Colored top */}
-                <div className={`h-40 flex items-center justify-center text-6xl
+                <div className={`h-40 flex items-center justify-center
                   ${s.id === 'couverture' ? 'bg-gradient-to-br from-ardoise-700 to-ardoise-600' : ''}
                   ${s.id === 'zinguerie'  ? 'bg-gradient-to-br from-stone-800 to-stone-700' : ''}
                   ${s.id === 'etancheite' ? 'bg-gradient-to-br from-ardoise-800 to-ardoise-700' : ''}
                 `}>
-                  {s.icon}
+                  {SERVICE_ICONS[s.id]}
                 </div>
                 <div className="p-6">
                   <h3 className="font-display text-xl text-ardoise-600 mb-2">
