@@ -10,7 +10,6 @@ const VALUES = [
   { icon: <Users  size={24} className="text-cuivre-400" />, title: 'Proximité',   desc: 'Un artisan local qui connaît votre région et ses contraintes.' },
   { icon: <Wrench size={24} className="text-cuivre-400" />, title: 'Savoir-faire', desc: '25 ans de métier transmis avec passion et rigueur.' },
 ]
-
 const TEAM = [
   {
     emoji: '👷',
@@ -31,7 +30,6 @@ const TEAM = [
     bio: 'Expert en membranes bitumineuses et EPDM, Marc intervient sur les toitures-terrasses et toits plats. Certifié par les principaux fabricants de systèmes d\'étanchéité.',
   },
 ]
-
 export default function APropos() {
   return (
     <>
@@ -96,7 +94,7 @@ export default function APropos() {
       </section>
 
       {/* ── ÉQUIPE ── */}
-      <section className="py-20 px-4 bg-stone-50">
+     {/* <section className="py-20 px-4 bg-stone-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <span className="section-tag">Notre équipe</span>
@@ -122,7 +120,7 @@ export default function APropos() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* ── VALEURS ── */}
       <section className="py-20 px-4 bg-ardoise-700">

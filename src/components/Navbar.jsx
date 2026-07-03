@@ -41,7 +41,7 @@ export default function Navbar() {
               to="/"
               className="font-display text-xl text-white hover:text-cuivre-300 transition-colors"
             >
-              Toitures <span className="text-cuivre-500">Martin</span>
+              Toitures <span className="text-cuivre-500">Christophe</span>
             </Link>
 
             {/* Desktop nav */}

@@ -50,7 +50,7 @@ export default function Accueil() {
                         grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
           <div className="animate-fade-up">
-            <span className="section-tag">Artisan couvreur certifié — Vesoul (70)</span>
+            <span className="section-tag">Artisan couvreur certifié — Dannemarie (68)</span>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-white
                            leading-[1.05] mb-6">
               L'art de<br />
