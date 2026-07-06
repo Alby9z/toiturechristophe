@@ -31,7 +31,7 @@ export async function sendContactEmail(formData) {
     from_phone: formData.phone,
     service_type: formData.service,
     message: formData.message,
-    to_email: 'chris-services@outlook.fr',
+    to_email: 'lestoituresdechristophe@free.fr',
   }
 
   return emailjs.send(serviceId, templateId, templateParams, publicKey)
