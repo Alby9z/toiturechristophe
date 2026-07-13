@@ -4,5 +4,10 @@
   { "label": "Couverture",        "path": "/couverture",   "id": "couverture" },
   { "label": "Zinguerie",         "path": "/zinguerie",    "id": "zinguerie" },
   { "label": "Étanchéité",        "path": "/etancheite",   "id": "etancheite" },
-  { "label": "Secteur",           "path": "/secteur",      "id": "secteur" }
+  { "label": "Secteur",           "path": "/secteur",      "id": "secteur" },
+  {
+  "id": "galerie",
+  "label": "Galerie",
+  "path": "/galerie"
+ }
 ]

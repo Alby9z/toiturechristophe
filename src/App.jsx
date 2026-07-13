@@ -11,6 +11,7 @@ import Secteur        from '@/pages/Secteur'
 import Contact        from '@/pages/Contact'
 import MentionsLegales from '@/pages/MentionsLegales'
 import NotFound       from '@/pages/NotFound'
+import Galerie from "./pages/Galerie";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/secteur"          element={<Secteur />} />
           <Route path="/contact"          element={<Contact />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/galerie" element={<Galerie />} />
           <Route path="*"                 element={<NotFound />} />
         </Routes>
       </main>
