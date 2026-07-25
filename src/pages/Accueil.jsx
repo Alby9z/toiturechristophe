@@ -208,8 +208,8 @@ export default function Accueil() {
             </Link>
           </div>
           <div className="flex-1 flex flex-wrap gap-2 justify-center lg:justify-end">
-            {['Vesoul', 'Gray', 'Luxeuil-les-Bains', 'Lure', 'Port-sur-Saône',
-              'Héricourt', 'Rioz', 'Jussey', 'Champlitte', 'Faverney'].map((v) => (
+            {['Dannemarie', 'Altkirch', 'Masevaux-Niederbruck', 'Montreux-Château', 'Foussemagne',
+              'Vellescot', 'Petit-Croix', 'Boron', 'Angeot', 'Lachapelle-sous-Rougement'].map((v) => (
               <span
                 key={v}
                 className="text-sm bg-ardoise-600 text-stone-300 px-4 py-2 rounded-sm"
