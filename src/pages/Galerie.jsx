@@ -1,3 +1,4 @@
+import { Scale3D } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -10,7 +11,7 @@ const galleryItems = [
     year: "2026",
     description:
       "Réfection complète avec reprise des points sensibles, traitement des finitions et rendu propre.",
-    src: null,
+    src: "/realisations/couverture-zinguerie-scaled.jpg",
     featured: true,
   },
   {
@@ -21,7 +22,7 @@ const galleryItems = [
     year: "2026",
     description:
       "Pose et ajustement des éléments de zinguerie pour une évacuation fiable et une finition nette.",
-    src: null,
+    src: "/realisations/images.jpeg",
     featured: false,
   },
   {
@@ -32,7 +33,7 @@ const galleryItems = [
     year: "2025",
     description:
       "Intervention ciblée sur les zones exposées à l’eau, avec contrôle des raccords et protections.",
-    src: null,
+    src: "/realisations/etancheitetoitplat-une.webp",
     featured: false,
   },
   {
@@ -43,7 +44,7 @@ const galleryItems = [
     year: "2025",
     description:
       "Diagnostic, sécurisation et réparation rapide après infiltrations ou éléments endommagés.",
-    src: null,
+    src: "/realisations/repa.jpg",
     featured: true,
   },
   {
@@ -54,7 +55,7 @@ const galleryItems = [
     year: "2026",
     description:
       "Travail de finition pour protéger durablement les bordures et améliorer le rendu visuel.",
-    src: null,
+    src: "/realisations/finition.jpg",
     featured: false,
   },
   {
@@ -65,7 +66,7 @@ const galleryItems = [
     year: "2025",
     description:
       "Nettoyage, inspection et vérification des éléments sensibles pour prolonger la durée de vie du toit.",
-    src: null,
+    src: "/realisations/demoussage-3.jpg",
     featured: false,
   },
 ];
@@ -237,27 +238,7 @@ export default function Galerie() {
         </div>
       </section>
 
-      <section className="border-b border-black/10 bg-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_.7fr] lg:px-8">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-amber-700">
-              Galerie
-            </p>
-
-            <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-              Une page qui inspire confiance avant même le premier appel.
-            </h2>
-          </div>
-
-          <div className="text-base leading-8 text-neutral-600">
-            <p>
-              L’objectif n’est pas juste d’afficher des images. Une bonne galerie
-              doit rassurer : montrer la qualité des finitions, expliquer le type
-              d’intervention et donner envie de demander un devis.
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       <section id="realisations" className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
@@ -385,17 +366,7 @@ export default function Galerie() {
                   {selectedItem.description}
                 </p>
 
-                <div className="mt-8 rounded-2xl bg-neutral-50 p-5 ring-1 ring-black/5">
-                  <div className="text-sm font-semibold text-neutral-900">
-                    Conseil
-                  </div>
-
-                  <p className="mt-2 text-sm leading-6 text-neutral-600">
-                    Ajoutez idéalement une photo avant, une photo pendant, puis
-                    une photo finale pour chaque réalisation. C’est plus
-                    convaincant qu’une simple image finale.
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
