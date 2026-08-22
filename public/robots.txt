@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.toitures-martin.fr/sitemap.xml
+Sitemap: https://www.lestoituresdechristophe.com/sitemap.xml
